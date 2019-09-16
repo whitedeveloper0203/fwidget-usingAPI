@@ -1,0 +1,21 @@
+.widget-view{
+    height: 60rem; 
+    overflow-y: auto;
+}
+.hide_scrollbar{
+	padding-right: 12px;
+	box-sizing: content-box;
+}
+.grid-image{
+    background-color: silver;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+.grid-image:hover{
+	opacity: 0.6;
+}
+.blank-height{
+    height: 190px;
+}

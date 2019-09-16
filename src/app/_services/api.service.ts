@@ -14,9 +14,9 @@ export class APIService {
 
     }
 
-    get_widgets(placement, max_items, page_size) {
+    getWidgets(placement, maxItems, pageSize, totalPage): Observable<Widget[]> {
 
-        let queryURL = `${environment.API_URL}/widgetplacement?placement=${placement}&max_items=${max_items}&page_size=${page_size}`
+        let queryURL = `${environment.API_URL}/widgetplacement?placement=${placement}&max_items=${maxItems}&page_size=${pageSize}&total_page=${totalPage}`
         
         let headers = new HttpHeaders();
         headers.append('Accept', 'application/json');
